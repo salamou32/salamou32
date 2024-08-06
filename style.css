@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+body {
+   font-family: "oswald" , sans-serif;
+   background-image:url(pastel-orange-aesthetic-gridline-muq3zlot9tb549a6.jpg) ;
+   min-height: 100vh;
+
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+
+}
+
+
+
+
+
+
+h1 {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 5vw;
+  
+    
+}
+
+.flexbox{
+    border:  2px solid rgb(238, 190, 32);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    min-height: 150px;
+    justify-content: space-around
+    
+}
+.flexbox ul {
+    padding: 0%;
+    display: flex;
+    justify-content:space-evenly ;
+}
+.flexbox li {
+    list-style: none;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    background-color: #ff7b00;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 8px 4px 18px;
+    text-align: center;
+  
+}
